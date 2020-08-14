@@ -1,1 +1,124 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.items {
+    flex-wrap: wrap;
+    flex-basis: 40%; 
+    margin: 0px;
+    text-align: center;
+    
+}
+.heading{
+    font-size: 3rem;
+    flex-wrap: wrap;
+    flex-basis: 60%; 
+    margin:0px 40px;
+}
+.button {
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 15px 20px;
+    background-color: #bdbdbd;
+    border: white;
+    font-size: 1.5rem;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.projectOne{
+    margin: 0px 0px 40px 0px;
+}
+
+.backgroundImg{
+    background-image: url("https://pbs.twimg.com/media/DP5233IUEAAnJcW.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative;
+}
+
+.backgroundText{
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.backgroundText h3{
+    font-size: 4rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 .images p{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+.middleSection{
+    margin: 0px 10px 30px 10px;
+}
+.thirdSection{
+    margin: 0px 10px 30px 10px;
+}
+
+footer{
+    margin: 10px 0px 0px 0px;
+}
+footer div{
+    background-color: #ebebeb;
+    padding: 40px;
+}
+footer div{
+    background-color: #ebebeb;
+    padding: 40px;
+} 
+
+.lastContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonLast{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 15px 20px;
+    background-color: #bdbdbd;
+    border: white;
+    font-size: 1.5rem;
+}
+
+.buttonLast a{
+    text-decoration: none;
+    color: white;
+}
+

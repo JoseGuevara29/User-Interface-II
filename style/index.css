@@ -18,15 +18,14 @@ html{
 }
 
 .items {
-    flex-wrap: wrap;
+    display: flex;
     flex-basis: 40%; 
-    margin: 0px;
+    margin: auto;
     text-align: center;
     
 }
 .heading{
     font-size: 3rem;
-    flex-wrap: wrap;
     flex-basis: 60%; 
     margin:0px 40px;
 }
@@ -75,6 +74,8 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .container2 .images p{
@@ -86,9 +87,6 @@ html{
 .middleSection{
     margin: 0px 10px 30px 10px;
 }
-.thirdSection{
-    margin: 0px 10px 30px 10px;
-}
 
 footer{
     margin: 10px 0px 0px 0px;
@@ -97,10 +95,7 @@ footer div{
     background-color: #ebebeb;
     padding: 40px;
 }
-footer div{
-    background-color: #ebebeb;
-    padding: 40px;
-} 
+
 
 .lastContainer{
     display: flex;
@@ -122,3 +117,65 @@ footer div{
     color: white;
 }
 
+@media screen and (max-width: 800px){
+    .container2 {
+        flex-wrap: wrap;
+        font-size: .8rem;
+    }
+    .container2 .images{
+        width: 50%;
+        height: 300px;
+        align-items: center;
+    }
+    .container2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 200px;
+    }
+    .container2 .images p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .container1{
+        display: block;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .items{
+        flex-direction: column;
+    }
+    .button{
+        width:150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .backgroundText h3{
+        font-size: 2.75rem;
+    }
+    .backgroundText{
+        font-size: 1.4rem;
+    }
+
+    .backgroundImg{
+        height:350px;
+        
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .backgroundText h3{
+        font-size: 1.8rem;
+    }
+    .backgroundText{
+        font-size: 1rem;
+    }
+    .backgroundImg{
+        height:250px;
+        
+    }
+}
